@@ -1,0 +1,26 @@
+{
+    "name": "montajar/dev",
+    "description": "cortar imagens",
+    "authors": [
+        {
+            "name": "Richard de Oliveira Lopes",
+            "email": "richardxlopes@gmail.com",
+            "role": "Técnico em desenvolvimento"
+        }
+    ],
+    "require": {
+        "twbs/bootstrap": "^4.4",
+        "components/jquery": "^3.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Montajar\\": "src\\montajar"
+        }
+    },
+    "scripts": {
+        "test": "vendor\\bin\\phpunit"
+    }
+}
